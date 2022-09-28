@@ -102,7 +102,7 @@ h1, h2, h3 {
 
 .title-screen-bg {
     min-width: 1140px;
-    height: 757px;
+    height: 100vh;
     margin-bottom: 40px;
 
     background: url('../img/s-first-bg.jpg') center center/cover no-repeat;
@@ -117,7 +117,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     width: 1140px;
-    height: 757px;
+    height: 100vh;
     margin: 0 auto;
 }
 
@@ -817,4 +817,46 @@ input[type=submit]:hover {
 
 .compensated-for-open-modal {
     padding-right: 16px; 
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+    .contacts__contact-info {
+        width: 800px;
+    }
+    .header {
+        width: 100vw;
+    }
+    .header-wrapper {
+        width: 100vw;
+    }
+    .header__shortcut {
+        width: fit-content;
+    }
+    .title-screen-bg {
+        width: 100vw;
+        min-width: 800px;
+    }
+    .title-screen {
+        width: 100vw;
+        min-width: 800px;
+    }
+    .reviews {
+        min-width: 100px;
+    }
+    .footer {
+        min-width: 800px;
+    }
+    .review__title {
+        width: 400px;
+    }
+    .review__name {
+        width: 400px;
+    }
+    .review__text {
+        width: 400px;
+    }
+        
 }
